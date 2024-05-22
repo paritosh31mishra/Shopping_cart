@@ -91,7 +91,7 @@ function initApp(){
 initApp();
 
 function addToCard(key){
-    alert("product added successfully !!");
+ 
     if(listCards[key] == null){
         // copy product form list to list card
         listCards[key] = JSON.parse(JSON.stringify(products[key]));
