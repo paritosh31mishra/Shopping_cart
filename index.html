@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Shopping cart</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="">
     
     <div class="container">
         <header>
-            <h1>My Shopping Cart</h1>
+            <h1>Your Shopping Cart</h1>
             <div class="shopping">
                 <img src="image/shopping.svg">
                 <span class="quantity">0</span>
@@ -23,7 +23,11 @@
         </div>
     </div>
     <div class="card">
+     <div style="display: grid; grid-template-columns: auto auto auto; align-items: center;">
         <h1>Card</h1>
+                <button  onclick="increase()" class="sortby"> Increasing Order</button>
+                <button  onclick="decrease()" class="sortby">Decreasing Order</button>
+    </div>
         <ul class="listCard">
         </ul>
 
